@@ -47,7 +47,7 @@ To compile and run this project on your ESP32, make sure to install the followin
    
    	4.	WiFi – To connect the ESP32 to a wireless network.
     
-    	5.	WebServer – To host the web interface for downloading recorded data.
+    5.	WebServer – To host the web interface for downloading recorded data.
      
 
 # 📥 Installation Instructions
