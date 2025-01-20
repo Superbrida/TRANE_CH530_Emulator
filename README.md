@@ -1,18 +1,18 @@
-🚀 ESP32 RS485 Sensor Emulator
+##🚀 ESP32 RS485 Sensor Emulator
 
 Welcome to the coolest ESP32 project on the block! 🎉
 This project has been successfully tested for communication between a centrifugal chiller control panel Trane CH530 and a temperature sensor, using the LLID bus communication protocol over RS485.
 
 It records data from the sensor for 1 minute, then emulates it for another minute, allowing you to download the recorded data via a web server. All in just 2 minutes – because who has time to wait? ⏱️
 
-📦 What’s Inside?
+#📦 What’s Inside?
 	•	📡 RS485 Communication: Seamlessly talking to the Trane CH530 and sensor.
 	•	💾 Data Recording: Capturing sensor data for 1 minute via LLID bus.
 	•	🎭 Sensor Emulation: Mimicking the sensor behavior for analysis.
 	•	🌐 Web Server: Download the recorded data straight from your browser.
 	•	📶 Wi-Fi Connectivity: No cables, just pure convenience.
 
- 🛠️ Hardware Requirements
+#🛠️ Hardware Requirements
 
 To get started, you’ll need the following hardware components:
 	•	🧠 ESP32 (for the brains of the operation)
@@ -36,17 +36,17 @@ GPIO33	MAX485 #2 DI (Transmit) – Temperature Sensor
 	4.	Download your data:
 Open your browser and go to http://<ESP32-IP>/download to retrieve the logs.
 
-🚦 Status LEDs (for those who love blinky things)
+#🚦 Status LEDs (for those who love blinky things)
 	•	🔴 Recording mode: ESP32 is listening to the sensor.
 	•	🟡 Emulation mode: ESP32 is acting as the sensor.
 	•	🟢 Ready: Web server is live and waiting for you.
 
- 🚀 Future Improvements
+#🚀 Future Improvements
 	•	Expand support for additional sensors and devices.
 	•	Improve data visualization through a web interface.
 	•	Optimize power consumption for standalone deployments.
 
- 🙌 Contributing
+#🙌 Contributing
 
 Feel free to open an issue or submit a PR – the more, the merrier! 🎉
 
