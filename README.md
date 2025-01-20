@@ -103,6 +103,7 @@ To properly connect the ESP32 with the MAX485 modules, follow these wiring instr
  
 
 Explanation:
+
 	•	The first MAX485 module handles communication with the CH530 control panel (RS485 Master).
  
 	•	The second MAX485 module handles communication with the temperature sensor (RS485 Sensor).
