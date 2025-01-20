@@ -35,6 +35,24 @@ The Tracer® CH530 controller is used in various Trane chillers, including:
 	•	🌐 Web Server: Download the recorded data straight from your browser.
 	•	📶 Wi-Fi Connectivity: No cables, just pure convenience.
 
+# 📚 Required Libraries
+
+To compile and run this project on your ESP32, make sure to install the following libraries:
+	1.	HardwareSerial – For serial communication with RS485 devices.
+ 	2.	FS (File System) – For file handling operations on SPIFFS.
+  	3.	SPIFFS (SPI Flash File System) – Used to store and retrieve sensor data.
+   	4.	WiFi – To connect the ESP32 to a wireless network.
+    	5.	WebServer – To host the web interface for downloading recorded data.
+
+# 📥 Installation Instructions
+
+To install these libraries, follow these steps:
+	1.	Using the Arduino IDE:
+	•	Go to Sketch > Include Library > Manage Libraries...
+	•	Search for the required libraries (e.g., “SPIFFS”, “WiFi”, etc.)
+	•	Click Install.
+
+ 
 # 🛠️ Hardware Requirements
 
 To get started, you’ll need the following hardware components:
