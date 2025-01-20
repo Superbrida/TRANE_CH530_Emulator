@@ -42,8 +42,8 @@ SOFTWARE.
 #define UART2_TX 33
 
 // Wi-Fi credentials
-const char* ssid = "FASTWEB-d9BZe9";
-const char* password = "Jn8s3SU7wm";
+const char* ssid = "Your_ssid";
+const char* password = "Your_password";
 
 HardwareSerial RS485Master(1); // UART1
 HardwareSerial RS485Sensor(2); // UART2
