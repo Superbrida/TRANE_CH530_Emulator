@@ -77,9 +77,13 @@ To install these libraries, follow these steps:
 # 🛠️ Hardware Requirements
 
 To get started, you’ll need the following hardware components:
+
 	•	🧠 ESP32 (for the brains of the operation)
+ 
 	•	🔌 2x MAX485 modules (to handle RS485 communication)
+ 
 	•	🛠️ Wiring essentials (jumper wires, breadboard, power supply)
+ 
 
 Wiring Configuration
 
