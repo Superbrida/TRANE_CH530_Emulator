@@ -79,17 +79,34 @@ To get started, you’ll need the following hardware components:
 	•	🛠️ Wiring essentials (jumper wires, breadboard, power supply)
  
 
-Wiring Configuration
+# 🛠️ Wiring Configuration
 
-ESP32 Pin	Connection
+To properly connect the ESP32 with the MAX485 modules, follow these wiring instructions:
 
-GPIO14	MAX485 #1 RO (Receive) – CH530 panel
+	•	RS485 Master (connected to CH530 panel):
+ 
+	•	Connect GPIO14 of the ESP32 to the RO (Receiver Output) pin of the MAX485.
+ 
+	•	Connect GPIO27 of the ESP32 to the DI (Driver Input) pin of the MAX485.
+ 
+	•	RS485 Sensor (connected to the temperature sensor):
+ 
+	•	Connect GPIO25 of the ESP32 to the RO (Receiver Output) pin of the second MAX485.
+ 
+	•	Connect GPIO33 of the ESP32 to the DI (Driver Input) pin of the second MAX485.
+ 
+	•	Power Connections:
+ 
+	•	Connect the VCC pin of both MAX485 modules to the 3.3V pin of the ESP32.
+ 
+	•	Connect the GND pin of both MAX485 modules to the GND pin of the ESP32.
+ 
 
-GPIO27	MAX485 #1 DI (Transmit) – CH530 panel
+Explanation:
+	•	The first MAX485 module handles communication with the CH530 control panel (RS485 Master).
+	•	The second MAX485 module handles communication with the temperature sensor (RS485 Sensor).
+	•	Ensure correct power supply connections to avoid damage to the components.
 
-GPIO25	MAX485 #2 RO (Receive) – Temperature Sensor
-
-GPIO33	MAX485 #2 DI (Transmit) – Temperature Sensor
 
 # ⚡ Quick Start Guide
 	1.	Flash the code onto your ESP32 (you got this 💪).
