@@ -1,6 +1,6 @@
 # 🚀 ESP32 RS485 Sensor Emulator
 
-https://github.com/Superbrida/TRANE_CH530_Emulator/blob/main/Multimedia/IMG_5454.jpg
+(https://github.com/Superbrida/TRANE_CH530_Emulator/blob/main/Multimedia/IMG_5454.jpg)
 
 Welcome to the coolest ESP32 project on the block! 🎉
 This project has been successfully tested for communication between a centrifugal chiller control panel Trane CH530 and a temperature sensor, using the LLID bus communication protocol over RS485.
