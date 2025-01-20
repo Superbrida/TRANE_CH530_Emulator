@@ -7,6 +7,27 @@ This project has been successfully tested for communication between a centrifuga
 
 It records data from the sensor for 1 minute, then emulates it for another minute, allowing you to download the recorded data via a web server. All in just 2 minutes – because who has time to wait? ⏱️
 
+🏭 Supported Trane Chillers
+
+The Tracer® CH530 controller is used in various Trane chillers, including:
+
+📌 Centrifugal Chillers:
+	•	CVGF – Multistage centrifugal chillers with direct drive compressors.
+	•	CVGF Series R – High-efficiency centrifugal chillers.
+	•	CDHF/CDHF+ – Large-capacity centrifugal chillers.
+	•	RTCF – Centrifugal chillers with variable-speed control.
+
+📌 Screw Chillers:
+	•	RTWD/RTUD 060-250 – Water-cooled screw chillers.
+	•	CGWN/CCUN 205-215 – Compact water-cooled chillers.
+	•	RTAC – Air-cooled screw chillers for large capacities.
+
+📌 Scroll Chillers:
+	•	CGAN/CXAN 209-214 – Air-cooled scroll chillers.
+	•	CGCL 200-600 – Modular scroll chillers.
+	•	CGWH/CCUH 115-250 – Heat pump and cooling-only models.
+	•	RAUL 190-800 – Large-capacity air-cooled chillers.
+
 # 📦 What’s Inside?
 	•	📡 RS485 Communication: Seamlessly talking to the Trane CH530 and sensor.
 	•	💾 Data Recording: Capturing sensor data for 1 minute via LLID bus.
