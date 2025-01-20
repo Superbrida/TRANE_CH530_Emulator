@@ -65,13 +65,7 @@ To compile and run this project on your ESP32, make sure to install the followin
     5.	WebServer – To host the web interface for downloading recorded data.
      
 
-# 📥 Installation Instructions
 
-To install these libraries, follow these steps:
-	1.	Using the Arduino IDE:
-	•	Go to Sketch > Include Library > Manage Libraries...
-	•	Search for the required libraries (e.g., “SPIFFS”, “WiFi”, etc.)
-	•	Click Install.
 
  
 # 🛠️ Hardware Requirements
@@ -88,9 +82,13 @@ To get started, you’ll need the following hardware components:
 Wiring Configuration
 
 ESP32 Pin	Connection
+
 GPIO14	MAX485 #1 RO (Receive) – CH530 panel
+
 GPIO27	MAX485 #1 DI (Transmit) – CH530 panel
+
 GPIO25	MAX485 #2 RO (Receive) – Temperature Sensor
+
 GPIO33	MAX485 #2 DI (Transmit) – Temperature Sensor
 
 # ⚡ Quick Start Guide
