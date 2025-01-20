@@ -7,7 +7,7 @@ This project has been successfully tested for communication between a centrifuga
 
 It records data from the sensor for 1 minute, then emulates it for another minute, allowing you to download the recorded data via a web server. All in just 2 minutes – because who has time to wait? ⏱️
 
-🏭 Supported Trane Chillers
+#🏭 Supported Trane Chillers
 
 The Tracer® CH530 controller is used in various Trane chillers, including:
 
